@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Dailies
 permalink: /dailies/
 ---
@@ -10,7 +10,7 @@ permalink: /dailies/
 <ul>
   {% for post in site.categories.dailies %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> 
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> 
       <span>({{ post.date | date: "%B %-d, %Y" }})</span>
     </li>
   {% endfor %}
