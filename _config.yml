@@ -1,6 +1,5 @@
 title: Benjamin Verses The World
-theme: 
-baseurl: "/benjaminversestheworld" 
+baseurl: "/benjaminversestheworld"
 remote_theme: jekyll/minima
 
 plugins:
@@ -8,3 +7,7 @@ plugins:
 
 minima:
   skin: dark
+
+header_pages:
+  - dailies.md
+  - about.md
