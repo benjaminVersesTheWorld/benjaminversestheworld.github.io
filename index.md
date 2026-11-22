@@ -9,7 +9,7 @@ Check out The regular updates as well as special articles on projects and missio
 <ul>
   {% for post in site.posts limit:3 %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%b %-d, %Y" }}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%b %-d, %Y" }}
     </li>
   {% endfor %}
 </ul>
