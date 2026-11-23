@@ -1,7 +1,10 @@
 title: Benjamin Verses The World
+url: "https://benjaminversestheworld.github.io"
 baseurl: ""
 remote_theme: jekyll/minima
 
+plugins:
+  - jekyll-feed
 
 minima:
   skin: dark
@@ -9,5 +12,5 @@ minima:
 header_pages:
   - index.md
   - dailies.md
-  - about.md 
+  - about.md
   - musings.md
