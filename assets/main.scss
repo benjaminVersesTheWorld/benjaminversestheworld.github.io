@@ -1,19 +1,10 @@
 ---
 ---
 
-// 1. Define terminal palette BEFORE importing the theme
-$background-color: #050505;
-$text-color:       #20e3b2;
-$brand-color:      #00ffcc;
-$grey-color:       #147a63;
-$grey-color-light: #0d3b31;
-$grey-color-dark:  #5efce8;
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
 
-$base-font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace;
-$code-font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace;
-
-
-// 3. Force Terminal Styling across all theme layouts
+// Terminal Teal-on-Black Overrides
 html, body {
   background-color: #050505 !important;
   color: #20e3b2 !important;
@@ -21,27 +12,31 @@ html, body {
   text-shadow: 0 0 3px rgba(32, 227, 178, 0.25);
 }
 
-.site-header, header {
-  border-top: 3px solid #00ffcc;
-  border-bottom: 1px solid #147a63;
+.site-header {
+  border-top: 3px solid #00ffcc !important;
+  border-bottom: 1px solid #147a63 !important;
   background-color: #080808 !important;
 }
 
-.site-footer, footer {
-  border-top: 1px solid #147a63;
+.site-footer {
+  border-top: 1px solid #147a63 !important;
   background-color: #080808 !important;
   color: #147a63 !important;
 }
 
-.site-title::before, header h1::before {
+.site-title::before {
   content: ">_ ";
   color: #00ffcc;
   font-weight: bold;
 }
 
-h1, h2, h3, h4, h5, h6, .site-title {
+.site-title, .site-title:visited, h1, h2, h3, h4, h5, h6 {
   color: #5efce8 !important;
   font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace !important;
+}
+
+.site-nav .page-link {
+  color: #20e3b2 !important;
 }
 
 a, a:visited {
@@ -66,19 +61,4 @@ blockquote {
   color: #5efce8 !important;
   border-left: 4px solid #00ffcc !important;
   background-color: #091210 !important;
-  padding: 10px 15px;
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-::-webkit-scrollbar-track {
-  background: #050505;
-}
-::-webkit-scrollbar-thumb {
-  background: #147a63;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #00ffcc;
 }
