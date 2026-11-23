@@ -12,8 +12,6 @@ $grey-color-dark:  #5efce8;
 $base-font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace;
 $code-font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace;
 
-// 2. Dynamically import your active remote_theme
-@import "{{ site.theme }}";
 
 // 3. Force Terminal Styling across all theme layouts
 html, body {
