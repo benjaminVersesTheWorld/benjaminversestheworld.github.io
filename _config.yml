@@ -1,6 +1,6 @@
 title: Benjamin Verses The World
 baseurl: "/benjaminversestheworld"
-theme: minima
+remote_theme: jekyll/minima
 
 
 minima:
