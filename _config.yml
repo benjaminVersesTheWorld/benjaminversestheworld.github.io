@@ -8,6 +8,5 @@ minima:
 
 header_pages:
   - dailies.md
-  - about.md
- 
+  - about.md 
   - musings.md
