@@ -11,5 +11,5 @@ minima:
 header_pages:
   - dailies.md
   - about.md
-  - chat.md
+  #- chat.md
   - musings.md
