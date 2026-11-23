@@ -1,0 +1,86 @@
+---
+---
+
+// 1. Define terminal palette BEFORE importing the theme
+$background-color: #050505;
+$text-color:       #20e3b2;
+$brand-color:      #00ffcc;
+$grey-color:       #147a63;
+$grey-color-light: #0d3b31;
+$grey-color-dark:  #5efce8;
+
+$base-font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace;
+$code-font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace;
+
+// 2. Dynamically import your active remote_theme
+@import "{{ site.theme }}";
+
+// 3. Force Terminal Styling across all theme layouts
+html, body {
+  background-color: #050505 !important;
+  color: #20e3b2 !important;
+  font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace !important;
+  text-shadow: 0 0 3px rgba(32, 227, 178, 0.25);
+}
+
+.site-header, header {
+  border-top: 3px solid #00ffcc;
+  border-bottom: 1px solid #147a63;
+  background-color: #080808 !important;
+}
+
+.site-footer, footer {
+  border-top: 1px solid #147a63;
+  background-color: #080808 !important;
+  color: #147a63 !important;
+}
+
+.site-title::before, header h1::before {
+  content: ">_ ";
+  color: #00ffcc;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, .site-title {
+  color: #5efce8 !important;
+  font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace !important;
+}
+
+a, a:visited {
+  color: #00ffcc !important;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(0, 255, 204, 0.4);
+}
+
+a:hover {
+  color: #050505 !important;
+  background-color: #00ffcc !important;
+  text-shadow: none;
+}
+
+pre, code {
+  background-color: #0a1412 !important;
+  border: 1px solid #0d3b31 !important;
+  color: #5efce8 !important;
+}
+
+blockquote {
+  color: #5efce8 !important;
+  border-left: 4px solid #00ffcc !important;
+  background-color: #091210 !important;
+  padding: 10px 15px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #147a63;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00ffcc;
+}
