@@ -18,6 +18,16 @@ html, body {
   background-color: #080808 !important;
 }
 
+.site-title, .site-title:visited {
+  border-bottom: none !important;
+}
+
+.site-title:hover {
+  background-color: transparent !important;
+  color: #00ffcc !important;
+  text-decoration: none !important;
+}
+
 .site-footer {
   border-top: 1px solid #147a63 !important;
   background-color: #080808 !important;
