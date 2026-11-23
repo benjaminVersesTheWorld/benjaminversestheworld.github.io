@@ -1,20 +1,19 @@
 ---
 ---
 
-// 1. Define terminal palette BEFORE importing the theme
-$background-color: #050505; // Deep terminal black
-$text-color:       #20e3b2; // Bright phosphor teal
-$brand-color:      #00ffcc; // Electric cyan-teal for links & titles
-$grey-color:       #147a63; // Muted dark teal for borders, dates & metadata
-$grey-color-light: #0d3b31; // Subtle dark teal for code block backgrounds & table borders
-$grey-color-dark:  #5efce8; // High-contrast pale teal for headings & active states
+$background-color: #050505;
+$text-color:       #20e3b2;
+$brand-color:      #00ffcc;
+$grey-color:       #147a63;
+$grey-color-light: #0d3b31;
+$grey-color-dark:  #5efce8;
 
-// Switch typography to monospace
 $base-font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace;
 $code-font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace;
 
-// 2. Import the base theme
-@import "{{ site.theme }}";
+@import "minima";
+
+// Paste Section 3 (Terminal Polish & Overrides) from before below this line
 
 // 3. Terminal Polish & Overrides
 body {
