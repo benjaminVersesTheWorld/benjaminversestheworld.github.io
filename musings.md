@@ -4,7 +4,7 @@ title: Musings
 permalink: /musings/
 ---
 
-<h1>Musings</h1>
+
 <p>Odd bits that keep it interesting</p>
 
 <ul>
