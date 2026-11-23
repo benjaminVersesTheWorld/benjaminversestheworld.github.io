@@ -1,11 +1,11 @@
 title: Benjamin Verses The World
 baseurl: "/benjaminversestheworld"
-remote_theme: jekyll-theme-hacker
+remote_theme: jekyll/minima
 
 plugins:
   - jekyll-remote-theme
 
-hacker:
+minima:
   skin: dark
 
 header_pages:
