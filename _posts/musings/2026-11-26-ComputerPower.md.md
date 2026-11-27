@@ -18,7 +18,7 @@ The authors companion argues that innovation is stifled under socialism because.
 
 I feel that the stark presentation of this statement posts it as a central challenge in the coming world where machines become more powerful. The author promises to discuss the tasks the machines "ought not to do" as I am chained to a desk while the androids are dreaming of their electric sheep.
 
-This intro was actually really dense; with name dropping. I only recognized a few, but once Carl Sagan was on board, I got tuned in. The mostly light hearted presentation of casting a simple chat bot as a 'doctor' is a lot darker fifty years later when we've had many cases of psychosis be fueled by the commercially available chat bots that are available today.
+This intro was actually really dense; with name dropping. I only recognized a few, but once Carl Sagan was on board, I got tuned in. The mostly light hearted presentation of casting a simple chat bot as a 'doctor' is a lot darker fifty years later when we've had many cases of psychosis be fueled by some of the commercial chat bots that are available today.
 
 I like that the author is honest that he really is asking some of the fundamental questions of philosophy, namely that of free will in judgement which is how I read " the calculability of human thought "
 
@@ -34,7 +34,21 @@ The scale of human achievement has been stretched as technologies are invented. 
 
 We shouldn't discuss major technological innovations as having "destroyed" workforces, rather they have been transformed. Those southern agricultural workers were able to find other opportunities in factories because yet other inventions had *transformed* the needs of industry. New skills were necessitated. No one is ever stopping you from doing it the old way. Without great social intervention, the easiest and most profitable methods tend to outcompete. This is what capital and society allowed.
 
-The concern for machines making decisions faster than humans can validate them is a true terror. It is an overwhelming pressure in todays world. Competitor nations developing technologies to rivial ours is marketed as an existential threat; as if the only peace that can be known is our own. As weapon systems become violently rapid and ultimately powerful these machines have functioned as the machines of industry separate the worker from the means of production to divide the killer from the conscience.
+The concern for machines making decisions faster than humans can validate them is a true terror. It is an overwhelming pressure in todays world. Competitor nations developing technologies to rival ours is marketed as an existential threat; as if the only peace that can be known is our own. As weapon systems become violently rapid and ultimately powerful these machines have functioned as the machines of industry separate the worker from the means of production to divide the killer from the conscience.
 
-Armies have always done this through a chain of command. Any successful organization runs on passing accountability around like a bad flu. I find the idea that we both are and are in the machine to be a fascinating omnipresent background din.  >> page 93
+Armies have always done this through a chain of command. Any successful organization runs on passing accountability around like a bad flu. I find the idea that we both are and are in the machine to be a fascinating omnipresent background din.
+
+In 1976 the author stated as a fact that the newly built highway system was detrimental to the people of inner cities. I am aware of places in the world around this time that were unbuilding highways as a failed experiment. Here in the US we were building and expanding by leaps over bounds.
+
+While he laments the simplex nature of mass media that was available in his day, I am sure he would prefer it also to the cacophony of social media and aggregated layers of sources that we wade through today as a requirement of remaining informed.
+
+At this chapters close the author asserts that a closed system paradigm by its nature limits possibilities in the process of making any result possible. On one hand: duh. On further contemplation I believe these things need to be chased out of the dark, nailed down and photographed for the masses to examine. This book is just making it's case thoroughly.
+
+---
+
+# Chapter 2: Where the Power of the Computer Comes From
+
+The idea of "Functional Specification" is realized when you get a device back together minus any small forgotten parts or screws whose locations you've misremembered. Detailed notes help with this. I would truly worry about passing on an item missing seemingly unimportant bits. Those bits were important enough for someone to care about at some point and you have to apprectiate that it's the only message they could send you. It's really a point of pride to get it back together "correctly". There are many times this is not possible or feasible. Sometimes reaching that functional specification once again is the highest victory.
+
+
 
