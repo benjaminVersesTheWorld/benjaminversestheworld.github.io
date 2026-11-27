@@ -1,8 +1,8 @@
 ---
 layout: base
 ---
-<div class="post-with-toc">
-  <aside class="toc-sidebar" aria-label="Table of contents">
+<div class="post-with-toc" id="post-wrapper">
+  <aside class="toc-sidebar" id="toc-sidebar" aria-label="Table of contents">
     <nav id="toc-nav">
       <p class="toc-title">On this page</p>
       <ul id="toc-list"></ul>
@@ -27,14 +27,16 @@ layout: base
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  const wrapper = document.getElementById("post-wrapper");
   const content = document.querySelector(".post-content");
   const tocList = document.getElementById("toc-list");
-  const sidebar = document.querySelector(".toc-sidebar");
-  if (!content || !tocList) return;
+  const sidebar = document.getElementById("toc-sidebar");
+  if (!content || !tocList || !sidebar) return;
 
-  const headings = content.querySelectorAll("h2, h3");
-  if (headings.length < 2) {
-    sidebar.style.display = "none";
+  const headings = content.querySelectorAll("h1, h2, h3, h4");
+  if (headings.length < 1) {
+    sidebar.remove();
+    wrapper.classList.remove("post-with-toc");
     return;
   }
 
@@ -48,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     const li = document.createElement("li");
-    li.className = heading.tagName === "H3" ? "toc-sub" : "toc-main";
+    li.className = (heading.tagName === "H3" || heading.tagName === "H4") ? "toc-sub" : "toc-main";
 
     const a = document.createElement("a");
     a.href = `#${heading.id}`;
