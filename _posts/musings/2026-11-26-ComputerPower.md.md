@@ -27,8 +27,14 @@ I liked the part where he threw shade at Lron. No notes, there.
 ---
 # Chapter 1: On Tools
 
+Human civilization is the first machine to assemble it self. Not perfectly, of course.
+
 The uses for tools described here are all ways to multiply human suffering. I am reminded that IBM (Yes, big blue) Had a complicated relationship with the funny mustache man and company.
 The scale of human achievement has been stretched as technologies are invented. Apparently we're predisposed to greed, ambition, destruction given the option.
 
-We shouldn't discuss major technological innovations as having "destroyed" workforces, rather they have been transformed. Those southern agricultural workers were able to find other opportunities in factories because yet other inventions had *transformed* the needs of industry. New skills were necessitated. No one is ever stopping you from doing it the old way. Without great social intervention, the easiest and most profitable methods tend to outcompete.
+We shouldn't discuss major technological innovations as having "destroyed" workforces, rather they have been transformed. Those southern agricultural workers were able to find other opportunities in factories because yet other inventions had *transformed* the needs of industry. New skills were necessitated. No one is ever stopping you from doing it the old way. Without great social intervention, the easiest and most profitable methods tend to outcompete. This is what capital and society allowed.
+
+The concern for machines making decisions faster than humans can validate them is a true terror. It is an overwhelming pressure in todays world. Competitor nations developing technologies to rivial ours is marketed as an existential threat; as if the only peace that can be known is our own. As weapon systems become violently rapid and ultimately powerful these machines have functioned as the machines of industry separate the worker from the means of production to divide the killer from the conscience.
+
+Armies have always done this through a chain of command. Any successful organization runs on passing accountability around like a bad flu. I find the idea that we both are and are in the machine to be a fascinating omnipresent background din.  >> page 93
 
