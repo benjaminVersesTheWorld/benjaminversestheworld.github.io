@@ -1,0 +1,61 @@
+---
+layout: base
+---
+<div class="post-with-toc">
+  <aside class="toc-sidebar" aria-label="Table of contents">
+    <nav id="toc-nav">
+      <p class="toc-title">On this page</p>
+      <ul id="toc-list"></ul>
+    </nav>
+  </aside>
+
+  <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p class="post-meta">
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: "%b %-d, %Y" }}
+        </time>
+      </p>
+    </header>
+
+    <div class="post-content e-content" itemprop="articleBody">
+      {{ content }}
+    </div>
+  </article>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const content = document.querySelector(".post-content");
+  const tocList = document.getElementById("toc-list");
+  const sidebar = document.querySelector(".toc-sidebar");
+  if (!content || !tocList) return;
+
+  const headings = content.querySelectorAll("h2, h3");
+  if (headings.length < 2) {
+    sidebar.style.display = "none";
+    return;
+  }
+
+  headings.forEach((heading) => {
+    if (!heading.id) {
+      heading.id = heading.textContent
+        .toLowerCase()
+        .trim()
+        .replace(/[^\w\s-]/g, "")
+        .replace(/\s+/g, "-");
+    }
+
+    const li = document.createElement("li");
+    li.className = heading.tagName === "H3" ? "toc-sub" : "toc-main";
+
+    const a = document.createElement("a");
+    a.href = `#${heading.id}`;
+    a.textContent = heading.textContent;
+
+    li.appendChild(a);
+    tocList.appendChild(li);
+  });
+});
+</script>
