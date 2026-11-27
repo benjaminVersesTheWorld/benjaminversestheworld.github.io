@@ -72,3 +72,66 @@ blockquote {
   border-left: 4px solid #00ffcc !important;
   background-color: #091210 !important;
 }
+
+/* Smooth jump scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Two-column layout on wider screens */
+@media screen and (min-width: 900px) {
+  .wrapper {
+    max-width: 1050px;
+  }
+
+  .post-with-toc {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  .toc-sidebar {
+    position: sticky;
+    top: 2rem;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+    border-right: 1px solid #333;
+    padding-right: 1rem;
+  }
+}
+
+.toc-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.7;
+  margin-bottom: 0.6rem;
+}
+
+#toc-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+#toc-list li {
+  margin-bottom: 0.45rem;
+}
+
+#toc-list li.toc-sub {
+  padding-left: 0.9rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+#toc-list a {
+  text-decoration: none;
+}
+
+#toc-list a:hover {
+  text-decoration: underline;
+}
