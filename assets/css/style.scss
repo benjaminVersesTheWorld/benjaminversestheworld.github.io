@@ -78,26 +78,32 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Two-column layout on wider screens */
+/* Two-column Flexbox layout on wider screens */
 @media screen and (min-width: 900px) {
-  .wrapper {
-    max-width: 1050px;
+  .page-content .wrapper {
+    max-width: 1100px;
   }
 
   .post-with-toc {
-    display: grid;
-    grid-template-columns: 220px minmax(0, 1fr);
+    display: flex;
+    align-items: flex-start;
     gap: 2.5rem;
-    align-items: start;
+    width: 100%;
   }
 
   .toc-sidebar {
+    flex: 0 0 230px;
     position: sticky;
     top: 2rem;
     max-height: calc(100vh - 4rem);
     overflow-y: auto;
-    border-right: 1px solid #333;
+    border-right: 1px solid #0d3b31;
     padding-right: 1rem;
+  }
+
+  .post-with-toc .post {
+    flex: 1 1 auto;
+    min-width: 0;
   }
 }
 
@@ -106,7 +112,7 @@ html {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  opacity: 0.7;
+  color: #5efce8;
   margin-bottom: 0.6rem;
 }
 
@@ -114,24 +120,22 @@ html {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   line-height: 1.4;
 }
 
 #toc-list li {
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.5rem;
 }
 
 #toc-list li.toc-sub {
   padding-left: 0.9rem;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   opacity: 0.85;
 }
 
 #toc-list a {
-  text-decoration: none;
-}
-
-#toc-list a:hover {
-  text-decoration: underline;
+  border-bottom: none;
+  display: block;
+  padding: 2px 4px;
 }
