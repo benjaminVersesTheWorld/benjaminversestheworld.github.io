@@ -5,6 +5,7 @@ date: 2026-11-27
 category: musings
 share: true
 ---
+
 # BOILERPLATE
 
 I have been recommended to read a book by the name of "Computer Power and Human Reason: From Judgement to Calculation" (1976) By Joseph Weizenbaum. I am going to try to keep my notes here for easy organizing and sharing. 
@@ -12,6 +13,7 @@ I have been recommended to read a book by the name of "Computer Power and Human 
 These are entirely my conceptions, thoughts, and notes while I am reading through the text. I have been warned that it is fairly dense, but I am not really keeping my pad close at had. I will try to wrap up after reading sessions and then crunch that into digestible ideas that make sense for the book. I will try to remember to update the date as I go, to keep it on top.
 
 ---
+
 # Introduction
 
 The authors companion argues that innovation is stifled under socialism because... people would work on the actual problems they face rather than produce value for an employer? I feel like this coloring of "innovation" has less to do with improving human lives than maintaining a power structure that sees their particular skill set as valuable. If I am misunderstanding something here I really need it corrected.
@@ -25,6 +27,7 @@ I like that the author is honest that he really is asking some of the fundamenta
 I liked the part where he threw shade at Lron. No notes, there.
 
 ---
+
 # Chapter 1: On Tools
 
 Human civilization is the first machine to assemble it self. Not perfectly, of course.
@@ -56,6 +59,18 @@ To keep the terminology straight, "Game State" and "State Transition" are first 
 
 Effective Procedure - a set of rules that applies from one state to the next. An algorithm. 
 
+Turing machines are those that can be built to realize any effective procedure. There is a lot of build up to effectively say that the most concrete proof we have that a machine qualifies as Turing complete is to demonstrate it's ability to emulate another machine that has already been assumed to be so.
 
+I am not sure to what extent I can try to rewrite the rules of the game that the book invents as he says, just for talking about. At that point, the specific rules or demonstration of this game are unimportant, only that you understand that it is non-permissive. The only choices are made by the player at setup, and the procedure runs through the game board according to the predetermined instructions. This is a plain language based demonstration of a computation algorithm
 
+The fact that this game can be communicated in plain language to another person who can then reproduce the same results is the point as well as the set up for the more difficult question of deciding what can and can not be meaningfully encoded, stored, computed and recalled in this way.
 
+Near the end of the chapter we expand into this idea of meaning in the basis of language and I feel like we're primed to start breaking any thing idea concept image into its constituent parts, until we can find the binary to faithfully represent it. That word "faithfully" is doing a lot of lifting in this case because the author is granular enough to elevate their definition of meaning with conceptual examples to poke at the pitfalls in translating information from one format to another.
+
+As the chapter is wrapping up, I feel like we're only finishing the introduction. I do get the feeling that the author would have benefitted from witnessing 50 years of human sweat building abstraction layers upon the rough and oaken machines he knew in his day. Maybe he was asking a question that had already been answered and forgotten by the time I got here.
+
+I know there have been several serious machine learning boom and bust cycles already. I keep in mind that the future comes from the people who want to live there.
+
+---
+
+# Chapter 3: How Computers Work
