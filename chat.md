@@ -6,7 +6,4 @@ permalink: /chat/
 
 Hop into `#benjaminversestheworld` on Libera.Chat below, or connect with your own IRC client at `irc.libera.chat` (port `6697` TLS).
 
-<iframe
-  src="https://kiwiirc.com/nextclient/#ircs://irc.libera.chat:6697/benjaminversestheworld"
-  style="border: 0; width: 100%; height: 600px; border-radius: 6px;">
-</iframe>
+<iframe src="https://kiwiirc.com/client/irc.libera.chat/?&theme=cli#benjaminversestheworld" style="border:0; width:100%; height:450px;"></iframe>
